@@ -1,0 +1,136 @@
+.top-part_icon{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top-part_icon_bad{
+    margin-top: 3rem;
+    margin-left: 18rem;
+}
+
+.top-part_icon_menu{
+    margin-top: 3rem;
+    margin-right: 18rem;
+}
+
+.top-item_name {
+  display: flex;
+  align-items: center;
+  margin-left: 18rem;
+  width: 80%;
+  gap: 0.6rem;
+  font-size: 4rem;
+}
+
+.top-item_deco {
+  background-color: #35d897; 
+  width: 30%;
+  height: 10%;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+
+.middle-part_user{
+    margin-left: 18rem;    
+    padding-top: 4rem;    
+    font-size: 2rem;
+}
+
+.middle-part_profile{
+    margin-left:64rem;
+}
+
+.middle-part_contents{
+    margin-left:18rem;
+}
+
+.middle-contents_bt{
+    margin-right:16rem;
+}
+
+
+
+.middle-contents_info {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  gap: 12rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.middle-contents_info span {
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+}
+
+.middle-contents_rank{
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);    
+    border-radius: 16px;    
+    margin: 2rem auto;        
+    margin-top: 4rem;    
+    margin-left: 18rem;
+    padding: 2rem;
+    width: 60%;
+}
+
+
+.middle-rank_info {
+  text-align: left;  
+  margin-bottom: 2rem;  
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.contents-rank_list {
+  background-color: #ffffff;  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  margin-bottom: 1.2rem;  
+  padding: 1rem 1.1rem;
+  gap: 1.2rem; 
+}
+
+.contents-rank_list > * {
+  flex: 1;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.contents-rank_list img {
+  max-width: 40px;  
+  width: 100%;
+  height: auto;
+}
+
+
+.bottom-part_menu {
+    background-color: #35d897;
+    display:flex;
+    box-shadow: 0 5px 5px 0 gray;    
+    margin-top: 4.5rem;
+    margin-left: 18rem;
+    margin-right: 12rem;
+    border: 1px solid rgba(101, 101, 101, 0.454);
+    border-radius: 15px;    
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 45px;
+}
+
+.bottom-menu_comp {
+    color:#1f1f1f;
+    text-decoration: none;
+    text-align: center;
+    width: 20%;
+    height: 45px;
+    line-height: 45px;
+}
