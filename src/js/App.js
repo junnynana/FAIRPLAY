@@ -4,8 +4,8 @@ import {Route, Link, Router} from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { BrowserRouter } from 'react-router-dom';
 
-import './App.css';
-import './deco.css'
+import '../css/App.css';
+import '../css/deco.scss'
 
 
 function App(props) {
