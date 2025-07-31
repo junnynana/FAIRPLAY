@@ -10,79 +10,76 @@ import '../css/deco.scss'
 
 function App(props) {
   return (
-    
     <div className="entire">
       
-      <div className="top-part"> 
-        <span className="top-part_icon">
-          <span className="top-part_icon_bad"> <img src="badminton.png" width="7%" ></img></span>
-          <span className="top-part_icon_menu">
-            <button type="button" >
-            <image src="menu.png">menu</image>
-          </button></span>
-        </span>
-        <h1 className="top-item_name">
-          <span className="top-item_deco">Fair<br/>play;</span>
-        </h1>
-      </div>
+        <div className="app-header">
+          <h1 className="app-header__icon">
+            <span className="app-header__icon__bad"><img src="public\images\badminton.png"/></span>
+            <span className="app-header__icon__menu">
+              <button type="button">
+                <img src="public\images\menu.png"/>
+              </button>
+            </span>
+                    
+            <p className="app-header__name"><span className="app-header__name__deco">Fair<br/>play;</span></p>
+          </h1>
+        </div>
 
-      <div className="middle-part">
-        <h2 class="middle-part_user">Hello,<b>Name!</b></h2>
-        <img src="user.png" class="middle-part_profile" height="150px" width="120px"></img>
+      <div className="app-container">
+        <span class="app-container__user">Hello,<b><span className="UserName-data">Name</span>!</b></span>
+        <img src="user.png" class="app-container__profile"/>
       </div>  
         <hr/>
 
-      <div className="middle-part_contents">
+      <div className="app-container__contents">
         <span className="Button">
-          <button type="button" class="middle-contents_bt" ><img src="ranking.png" width="100px" height="100px" ></img></button>
-          <button type="button" class="middle-contents_bt"><img src="myinfo.png" width="100px" height="100px"></img></button>
-          <button type="button" class="middle-contents_bt"><img src="talk.png" width="100px" height="100px"></img></button>
+          <button type="button" class="app-container__contents__bt" ><img src="ranking.png"/></button>
+          <button type="button" class="app-container__contents__bt"><img src="myinfo.png"/></button>
+          <button type="button" class="app-container__contents__bt"><img src="talk.png"/></button>
         </span>
         <br></br>
       </div>  
 
-
-
-        <span className ="middle-contents_info">
-          <span id="R">Ranking</span>
-          <span id="M"> My Info</span>
-          <span id="T">Talk</span>      
+        <span className ="app-container__contents__info">
+          <span id="Rank-Info">Ranking</span>
+          <span id="MY-Info"> My Info</span>
+          <span id="Talk-Info">Talk</span>      
         </span>
 
+    <div className="app-container__rank">
+      <p className="app-container__rank__info">Today's Ranking</p>
+      <ol>
+        <li className="app-container__rank__list">
+          <img src="first.png"/>
+          <img src="country.png"/>
+          <span className="app-container__rank__name"><span className="NameData-rank__first">name</span></span>
+          <span className="app-container__rank__score"><span className="ScoreData-rank__first">score</span></span>
+          <span className="app-container__rank__extra"><span className="ExtraData-rank__first">()</span></span>
+          <br></br>         
+        </li>
+        <li className="app-container__rank__list">
+          <img src="second.png"/>
+          <img src="country.png"/>
+          <span className="app-container__rank__name"><span className="NameData-rank__second">name</span></span>
+          <span className="app-container__rank__score"><span className="ScoreData-rank__second">score</span></span>
+          <span className="app-container__rank__extra"><span className="ExtraData-rank__second">()</span></span>
+        </li>
+        <li className="app-container__rank__list">
+          <img src="third.png"/>
+          <img src="country.png"/>
+          <span className="app-container__rank__name"><span className="NameData-rank__third">name</span></span>
+          <span className="app-container__rank__score"><span className="ScoreData-rank__third">score</span></span>
+          <span className="app-container__rank__extra"><span className="ExtraData-rank__third">()</span></span>
+        </li>
+      </ol>
+    </div>
 
-      <div className="middle-contents_rank">
-        <p className="middle-rank_info">Today's Ranking</p>
-        <span className="contents-rank_list">
-          <img src="first.png" width="5%"></img>
-          <img src="country.png" width="5%"></img>
-          <span className="contents-rank_name">name</span>
-          <span className="contents-rank_score">score</span>
-          <span className="contents-rank_extra">()</span>
-        <br></br>
-        </span>
-        <span className="contents-rank_list">
-          <img src="second.png" width="5%"></img>
-          <img src="country.png" width="5%"></img>
-          <span className="contents-rank_name">name</span>
-          <span className="contents-rank_score">score</span>
-          <span className="contents-rank_extra">()</span>
-        </span>
-        <br></br>
-        <span className="contents-rank_list">
-          <img src="third.png" width="5%"></img>
-          <img src="country.png" width="5%"></img>
-          <span className="contents-rank_name">name</span>
-          <span className="contents-rank_score">score</span>
-          <span className="contents-rank_extra">()</span>
-        </span>
-      </div>
-
-      <div className="bottom-part_menu">
-        <div className="bottom-menu_comp">Menu1</div>
-        <div className="bottom-menu_comp">Menu2</div>
-        <div className="bottom-menu_comp">Menu3</div>
-        <div className="bottom-menu_comp">Menu4</div>
-        <div className="bottom-menu_comp">Menu5</div>
+      <div className="app-navigation__menu">
+        <div className="app-navigation__comp">Menu1</div>
+        <div className="app-navigation__comp">Menu2</div>
+        <div className="app-navigation__comp">Menu3</div>
+        <div className="app-navigation__comp">Menu4</div>
+        <div className="app-navigation__comp">Menu5</div>
       </div>
 
     </div>

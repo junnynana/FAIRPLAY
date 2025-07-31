@@ -1,0 +1,118 @@
+.rank-header__icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rank-header__icon__bad{
+    margin-top: 1rem;
+    margin-left: 18rem;
+}
+
+.rank-header__icon__menu{
+    margin-top: 1rem;
+    margin-left: 23rem;
+}
+
+.rank-header__name {
+    display: flex;
+    align-items: center;
+    margin-left: -80rem;
+    width: 80%;
+    gap: 0.6rem;
+    font-size: 4rem;
+}
+
+.rank-header__name__deco {
+    background-color: #35d897; 
+    width: 16rem;
+    height: 8rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.rank-container__total {
+    background-color:#282929;
+    display: flex;
+    margin-left: 18rem;
+    margin-right: 18rem;
+}
+
+.rank-container__icon {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+
+.rank-container__total p{
+    color:#b2b8b8;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+.rank-container__total img {
+    background-color:#282929;
+    padding-left: 3rem;
+    padding-right: 5rem;
+}
+
+.rank-container__list ol {
+    margin-left: 18rem;
+    margin-right: 18rem;
+    padding: 0;
+}
+
+.rank-container__list__number {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    padding: 8px 0;
+}
+
+.rank-container__list__number img {
+    display: block;
+    padding-left: 20px;
+    width: 5%;
+}
+
+.rank-container__list__UserName {
+    flex: 1; 
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.rank-container__list__Record,
+.rank-container__list__TotalRecord {
+    min-width: 100px; 
+    text-align: center;
+}
+
+
+
+
+
+
+.rank-navigation {
+    background-color: #35d897;
+    display:flex;
+    box-shadow: 0 5px 5px 0 gray;    
+    margin-top: 4.5rem;
+    margin-left: 18rem;
+    margin-right: 12rem;
+    border: 1px solid rgba(101, 101, 101, 0.454);
+    border-radius: 15px;    
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 45px;
+}
+
+.rank-navigation_comp {
+    color:#1f1f1f;
+    text-decoration: none;
+    text-align: center;
+    width: 20%;
+    height: 45px;
+    line-height: 45px;
+}

@@ -1,59 +1,60 @@
-.top-part_icon{
+.app-header__icon{
     display: flex;
     justify-content: space-between;
-
 }
 
-.top-part_icon_bad{
-    margin-top: 3rem;
-    margin-left: 18rem;
+.app-header__icon__bad{
+    margin-top: 1rem;
+    margin-left: 19rem;
 }
 
-.top-part_icon_menu{
-    margin-top: 3rem;
-    margin-right: 18rem;
+.app-header__icon__menu{
+    margin-top: 1rem;
+    margin-left: 23rem;
 }
 
-.top-item_name {
-  display: flex;
-  align-items: center;
-  margin-left: 18rem;
-  width: 80%;
-  gap: 0.6rem;
-  font-size: 4rem;
+.app-header__name {
+    display: flex;
+    align-items: center;
+    margin-left: -79rem;
+    width: 80%;
+    gap: 0.6rem;
+    font-size: 4rem;
 }
 
-.top-item_deco {
-  background-color: #35d897; 
-  width: 30%;
-  height: 10%;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  border-top-right-radius: 20%;
-  border-bottom-right-radius: 20%;
+.app-header__name__deco {
+    background-color: #35d897; 
+    width: 17rem;
+    height: 11rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
 }
 
-.middle-part_user{
+.app-container__user{
     margin-left: 18rem;    
     padding-top: 4rem;    
     font-size: 2rem;
 }
 
-.middle-part_profile{
+.app-container__profile{
     margin-left:64rem;
+    height: 150px; 
+    width: 120px;
 }
 
-.middle-part_contents{
-    margin-left:18rem;
+.app-container__contents{
+    margin-left: 20rem;
 }
 
-.middle-contents_bt{
-    margin-right:16rem;
+.app-container__contents__bt{
+    margin-right: 16rem;
+    width: 100px; 
+    height: 100px;
 }
 
-
-
-.middle-contents_info {
+.app-container__contents__info {
   display: flex;
   justify-content: center;
   margin-top: 1rem;
@@ -63,31 +64,31 @@
   font-weight: 500;
 }
 
-.middle-contents_info span {
+.app-container__contents__info span {
   padding: 1rem 1.5rem;
   border-radius: 8px;
 }
 
-.middle-contents_rank{
+.app-container__rank{
     background-color: #f0f0f0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);    
     border-radius: 16px;    
     margin: 2rem auto;        
-    margin-top: 4rem;    
+    margin-top: 2.5rem;    
     margin-left: 18rem;
     padding: 2rem;
     width: 60%;
 }
 
 
-.middle-rank_info {
+.app-container__rank__info {
   text-align: left;  
   margin-bottom: 2rem;  
   font-size: 1.5rem;
   font-weight: bold;
 }
 
-.contents-rank_list {
+.app-container__rank__list {
   background-color: #ffffff;  
   display: flex;
   align-items: center;
@@ -98,24 +99,24 @@
   gap: 1.2rem; 
 }
 
-.contents-rank_list > * {
+.app-container__rank__list > * {
   flex: 1;
   text-align: center;
   font-size: 1rem;
 }
 
-.contents-rank_list img {
+.app-container__rank__list img {
   max-width: 40px;  
-  width: 100%;
+  width: 5%;
   height: auto;
 }
 
 
-.bottom-part_menu {
+.app-navigation__menu {
     background-color: #35d897;
     display:flex;
     box-shadow: 0 5px 5px 0 gray;    
-    margin-top: 4.5rem;
+    margin-top: 4rem;
     margin-left: 18rem;
     margin-right: 12rem;
     border: 1px solid rgba(101, 101, 101, 0.454);
@@ -126,7 +127,7 @@
     height: 45px;
 }
 
-.bottom-menu_comp {
+.app-navigation__comp {
     color:#1f1f1f;
     text-decoration: none;
     text-align: center;
