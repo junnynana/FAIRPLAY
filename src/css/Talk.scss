@@ -1,39 +1,35 @@
-.Talk-header__icon{
+.screen-header__icon{
     display: flex;
     justify-content: space-between;
 }
 
-.Talk-header__icon__bad{
+.screen-header__icon__bad{
     margin-top: 1rem;
     margin-left: 18rem;
 }
 
-.Talk-header__icon__menu{
+.screen-header__icon__menu{
     margin-top: 1rem;
     margin-left: 40rem;
 }
 
-.Talk-header__name {
+.screen-header__name {
     display: flex;
     align-items: center;
     margin-top: 4.5rem;
     margin-left: -60rem;
     width: 80%;
-    gap: 0.6rem;
     font-size: 4rem;
 }
 
-.Talk-header__name__deco {
+.screen-header__name__deco {
     background-color: #35d897; 
     width: 16rem;
     height: 8rem;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
+    border-radius: 0 45px 45px 0;
 }
 
-.Talk-header__ChatSearch input {
+.talk-header__chatSearch__area {
     background-color: #fff9e6;                 
     border: 2px solid #35d897;
     border-radius: 12px;
@@ -44,7 +40,7 @@
     font-size: 16px;
 }
 
-.Talk-container__profile{
+.talk-container__profile{
     display:flex;
     gap: 600px;
     margin-left: 1rem;    
@@ -54,43 +50,43 @@
     font-size: 2rem;
 }
 
-.Talk-container__profile__user{
+.talk-container__profile__user{
     margin-left: 18rem;
 }
 
-#area-divide {
+.area-divide {
     margin-left: 18rem;
     margin-right: 18rem;
     height: 2px;
     background-color: #323131ff; 
 }
 
-.Talk-container__chatlist {
+.talk-container__chatlist {
     margin-left: 18rem;
     margin-right: 18rem;
     padding: 15px;
 }
 
-.Talk-container__chatlist img {
+.talk-container__chatlist__img {
     width: 50px;
     height: 60px;
 }
 
-.Talk-container__chatlist__text {
+.talk-container__chatlist__text {
     display: flex;           
     margin-top: 8px;
     gap: 40px;
 }
 
-.LastChat-data__first,
-.LastChat-data__second,
-.LastChat-data__third, 
-.LastChat-data__fourth,
-.LastChat-data__fifth {
+.lastChat-data__first,
+.lastChat-data__second,
+.lastChat-data__third, 
+.lastChat-data__fourth,
+.lastChat-data__fifth {
     padding-left: 100px;
 }
 
-.Talk-container__chatlist hr {
+.talk-container__chatlist__divide {
     border: none;
     border-bottom: 1px solid #ddd;
     margin: 8px 0;
@@ -98,7 +94,7 @@
     background-color: #323131ff;
 }
 
-.Talk-navigation {
+.talk-navigation {
     background-color: #35d897;
     display:flex;
     box-shadow: 0 5px 5px 0 gray;    
@@ -107,17 +103,13 @@
     margin-right: 18rem;
     border: 1px solid rgba(101, 101, 101, 0.454);
     border-radius: 15px;    
-    bottom: 5px;
-    left: 5px;
-    right: 5px;
-    height: 45px;
 }
 
-.Talk-navigation_comp {  
+.screen-navigation_comp {  
     color:#1f1f1f;
     text-decoration: none;
     text-align: center;
+    padding-top: 20px;
     width: 20%;
-    height: 45px;
-    line-height: 45px;
+    height: 35px;
 }

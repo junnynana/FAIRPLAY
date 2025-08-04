@@ -1,35 +1,31 @@
-.app-header__icon{
+.screen-header__icon{
     display: flex;
     justify-content: space-between;
 }
 
-.app-header__icon__bad{
+.screen-header__icon__bad{
     margin-top: 1rem;
     margin-left: 19rem;
 }
 
-.app-header__icon__menu{
+.screen-header__icon__menu{
     margin-top: 1rem;
     margin-left: 23rem;
 }
 
-.app-header__name {
+.screen-header__name {
     display: flex;
     align-items: center;
     margin-left: -79rem;
     width: 80%;
-    gap: 0.6rem;
     font-size: 4rem;
 }
 
-.app-header__name__deco {
+.screen-header__name__deco {
     background-color: #35d897; 
     width: 17rem;
     height: 11rem;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 20%;
-    border-bottom-right-radius: 20%;
+    border-radius: 0 45px 45px 0;
 }
 
 .app-container__user{
@@ -64,7 +60,9 @@
   font-weight: 500;
 }
 
-.app-container__contents__info span {
+.rank-Info,
+.my-Info,
+.talk-Info {
   padding: 1rem 1.5rem;
   border-radius: 8px;
 }
@@ -79,7 +77,6 @@
     padding: 2rem;
     width: 60%;
 }
-
 
 .app-container__rank__info {
   text-align: left;  
@@ -96,7 +93,7 @@
   border-radius: 8px;
   margin-bottom: 1.2rem;  
   padding: 1rem 1.1rem;
-  gap: 1.2rem; 
+  padding-left: 2.4rem; 
 }
 
 .app-container__rank__list > * {
@@ -105,33 +102,29 @@
   font-size: 1rem;
 }
 
-.app-container__rank__list img {
+.app-container__rank__listImg {
   max-width: 40px;  
   width: 5%;
   height: auto;
 }
 
 
-.app-navigation__menu {
+.app-navigation {
     background-color: #35d897;
     display:flex;
-    box-shadow: 0 5px 5px 0 gray;    
+    box-shadow: 0 5px 5px 0 rgb(229, 219, 219);    
     margin-top: 4rem;
     margin-left: 18rem;
     margin-right: 12rem;
     border: 1px solid rgba(101, 101, 101, 0.454);
     border-radius: 15px;    
-    bottom: 5px;
-    left: 5px;
-    right: 5px;
-    height: 45px;
 }
 
-.app-navigation__comp {
+.screen-navigation__comp {
     color:#1f1f1f;
     text-decoration: none;
     text-align: center;
+    padding-top: 20px;
     width: 20%;
-    height: 45px;
-    line-height: 45px;
+    height: 35px;
 }
