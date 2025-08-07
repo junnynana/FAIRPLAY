@@ -1,5 +1,5 @@
-import { BrowserRouter } from 'react-router-dom';
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import {Route, Link, Router} from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
@@ -13,10 +13,10 @@ function App(props) {
 
         <div className="app-header">
           <h1 className="screen-header__icon">
-            <span className="screen-header__icon__bad"><img src="public\images\badminton.png"/></span>
+            <span className="screen-header__icon__bad"><img src="public\images\badminton.png" /></span>
             <span className="screen-header__icon__menu">
               <button type="button">
-                <img src="public\images\menu.png"/>
+                <img src="public\images\menu.png" />
               </button>
             </span>
                     
@@ -26,7 +26,7 @@ function App(props) {
 
       <div className="app-container">
         <span class="app-container__user">Hello,<b><span className="user-name__data">Name</span>!</b></span>
-        <img src="user.png" class="app-container__profile"/>
+        <img src="user.png" class="app-container__profile" />
       </div>  
         <hr/>
 
@@ -49,23 +49,23 @@ function App(props) {
       <p className="app-container__rank__info">Today's Ranking</p>
       <ol>
         <li className="app-container__rank__list">
-          <img src="first.png" className="app-container__rank__listImg"/>
-          <img src="country.png" className="app-container__rank__listImg"/>
+          <img src="first.png" className="app-container__rank__listImg" />
+          <img src="country.png" className="app-container__rank__listImg" />
           <span className="app-container__rank__name"><span className="name-data__rank__first">name</span></span>
           <span className="app-container__rank__score"><span className="score-data__rank__first">score</span></span>
           <span className="app-container__rank__extra"><span className="extra-data__rank__first">()</span></span>
           <br></br>         
         </li>
         <li className="app-container__rank__list">
-          <img src="second.png" className="app-container__rank__listImg"/>
-          <img src="country.png" className="app-container__rank__listImg"/>
+          <img src="second.png" className="app-container__rank__listImg" />
+          <img src="country.png" className="app-container__rank__listImg" />
           <span className="app-container__rank__name"><span className="name-data__rank__second">name</span></span>
           <span className="app-container__rank__score"><span className="score-data__rank__second">score</span></span>
           <span className="app-container__rank__extra"><span className="extra-data__rank__second">()</span></span>
         </li>
         <li className="app-container__rank__list">
-          <img src="third.png" className="app-container__rank__listImg"/>
-          <img src="country.png" className="app-container__rank__listImg"/>
+          <img src="third.png" className="app-container__rank__listImg" />
+          <img src="country.png" className="app-container__rank__listImg" />
           <span className="app-container__rank__name"><span className="name-data__rank__third">name</span></span>
           <span className="app-container__rank__score"><span className="score-data__rank__third">score</span></span>
           <span className="app-container__rank__extra"><span className="extra-data__rank__third">()</span></span>

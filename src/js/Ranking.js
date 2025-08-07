@@ -1,5 +1,5 @@
-import { BrowserRouter } from 'react-router-dom';
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import {Route, Link, Router} from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
@@ -12,10 +12,10 @@ function Ranking (props) {
             
             <div className="ranking-header">
                 <h1 className="screen-header__icon">
-                    <span className="screen-header__icon__bad"><img src="public\images\badminton.png"/></span>
+                    <span className="screen-header__icon__bad"><img src="public\images\badminton.png" /></span>
                     <span className="screen-header__icon__menu">
                         <button type="button">
-                            <img src="public\images\menu.png"/>
+                            <img src="public\images\menu.png" />
                         </button>
                     </span>
                     
@@ -28,17 +28,17 @@ function Ranking (props) {
                 <div className="rank-container__total">
                     <div className="rank-container__total__icon">
                         <p className="rank-container__total__info">Rank<br/>Total</p>
-                        <img className="rank-container__total__comp" src="public\images\first.png"/>
-                        <img className="rank-container__total__comp" src="public\images\second.png"/>
-                        <img className="rank-container__total__comp" src="public\images\third.png"/>
+                        <img className="rank-container__total__comp" src="public\images\first.png" />
+                        <img className="rank-container__total__comp" src="public\images\second.png" />
+                        <img className="rank-container__total__comp" src="public\images\third.png" />
                     </div>
                 </div>
 
                 <div className="rank-container__list">
                     <ol className="rank-container__list__main">
                         <li className="rank-container__list__number">
-                            <img src="public\images\first.png" className="rank-container__list__numberImg"/>
-                            <img src="public\images\country.png" className="rank-container__list__numberImg"/>
+                            <img src="public\images\first.png" className="rank-container__list__numberImg" />
+                            <img src="public\images\country.png" className="rank-container__list__numberImg" />
                             <span className="rank-container__list__userName">
                                 <span className="user-name__data__first">Name</span>                               
                             </span>                            
@@ -56,8 +56,8 @@ function Ranking (props) {
                             </span>
                         </li>
                         <li className="rank-container__list__number">
-                            <img src="public\images\second.png" className="rank-container__list__numberImg"/>
-                            <img src="public\images\country.png" className="rank-container__list__numberImg"/>
+                            <img src="public\images\second.png" className="rank-container__list__numberImg" />
+                            <img src="public\images\country.png" className="rank-container__list__numberImg" />
                             <span className="rank-container__list__userName">
                                 <span className="user-name__data__second">Name</span>                               
                             </span>                            
@@ -75,8 +75,8 @@ function Ranking (props) {
                             </span>
                         </li>
                         <li className="rank-container__list__number">
-                            <img src="public\images\third.png" className="rank-container__list__numberImg"/>
-                            <img src="public\images\country.png" className="rank-container__list__numberImg"/>
+                            <img src="public\images\third.png" className="rank-container__list__numberImg" />
+                            <img src="public\images\country.png" className="rank-container__list__numberImg" />
                             <span className="rank-container__list__userName">
                                 <span className="user-name__data__third">Name</span>                               
                             </span>                            
@@ -95,8 +95,8 @@ function Ranking (props) {
                         </li>
                         <hr id="area-divide" ></hr>
                         <li className="rank-container__list__number">
-                            <img src="public\images\third.png" className="rank-container__list__numberImg"/>
-                            <img src="public\images\country.png" className="rank-container__list__numberImg"/>
+                            <img src="public\images\third.png" className="rank-container__list__numberImg" />
+                            <img src="public\images\country.png" className="rank-container__list__numberImg" />
                             <span className="rank-container__list__userName">
                                 <span className="user-name__data__fourth">Name</span>                               
                             </span>                            
@@ -114,8 +114,8 @@ function Ranking (props) {
                             </span>
                         </li>
                         <li className="rank-container__list__number">
-                            <img src="public\images\third.png" className="rank-container__list__numberImg"/>
-                            <img src="public\images\country.png" className="rank-container__list__numberImg"/>
+                            <img src="public\images\third.png" className="rank-container__list__numberImg" />
+                            <img src="public\images\country.png" className="rank-container__list__numberImg" />
                             <span className="rank-container__list__userName">
                                 <span className="user-name__data__fifth">Name</span>                               
                             </span>                            

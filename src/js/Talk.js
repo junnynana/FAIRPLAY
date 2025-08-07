@@ -1,5 +1,5 @@
-import { BrowserRouter } from 'react-router-dom';
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import {Route, Link, Router} from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
@@ -13,17 +13,17 @@ function Talk(props) {
             
             <div className="talk-header">
                 <h1 className="screen-header__icon">
-                    <span className="screen-header__icon__bad"><img src="public\images\badminton.png"/></span>
+                    <span className="screen-header__icon__bad"><img src="public\images\badminton.png" /></span>
                     <span className="screen-header__icon__menu">
                         <button type="button">
-                            <img src="public\images\menu.png"/>
+                            <img src="public\images\menu.png" />
                         </button>
                     </span>
                     
                     <p className="screen-header__name"><span className="screen-header__name__deco">Talk</span></p>
                 </h1>
                 <form className="talk-header__chatSearch">
-                    <input type="text" placeholder="search chat room" className="talk-header__chatSearch__area"></input>
+                    <input type="text" placeholder="search chat room" className="talk-header__chatSearch__area" />
                 </form>
             </div>
 
@@ -33,7 +33,7 @@ function Talk(props) {
                 
                 <div className="talk-container__profile">
                     <p className="talk-container__profile__user"><span className="userName-data__container"><b>NAME</b></span></p>
-                    <img src="user.png" class="talk-container__profile"/>
+                    <img src="user.png" class="talk-container__profile" />
                 </div>
                 <hr className="area-divide"></hr>
 
@@ -41,7 +41,7 @@ function Talk(props) {
 
 
                     <span className="talk-container__chatlist__text">
-                        <img src="public\images\talk.png" className="talk-container__chatlist__img"/>
+                        <img src="public\images\talk.png" className="talk-container__chatlist__img" />
                         <span className="roomTitle-data__first"> Room title </span>
                         <span className="roomMember-data__first"> 100 </span>
                         <span className="lastChat-time__data__first"> yesterday </span>
@@ -51,7 +51,7 @@ function Talk(props) {
 
 
                     <span className="talk-container__chatlist__text">
-                        <img src="public\images\talk.png" className="talk-container__chatlist__img"/>
+                        <img src="public\images\talk.png" className="talk-container__chatlist__img" />
                         <span className="roomTitle-data__second"> Room title </span>
                         <span className="roomMember-data__second"> 100 </span>
                         <span className="lastChat-time__data__second"> yesterday </span>
@@ -61,7 +61,7 @@ function Talk(props) {
 
 
                     <span className="talk-container__chatlist__text">
-                        <img src="public\images\talk.png" className="talk-container__chatlist__img"/>
+                        <img src="public\images\talk.png" className="talk-container__chatlist__img" />
                         <span className="roomTitle-data__third"> Room title </span>
                         <span className="roomMember-data__third"> 100 </span>
                         <span className="lastChat-time__data__third"> yesterday </span>
@@ -71,7 +71,7 @@ function Talk(props) {
 
 
                     <span className="talk-container__chatlist__text">
-                        <img src="public\images\talk.png" className="talk-container__chatlist__img"/>
+                        <img src="public\images\talk.png" className="talk-container__chatlist__img" />
                         <span className="roomTitle-data__fourth"> Room title </span>
                         <span className="roomMember-data__fourth"> 100 </span>
                         <span className="lastChat-time__data__fourth"> yesterday </span>
@@ -81,7 +81,7 @@ function Talk(props) {
 
 
                     <span className="talk-container__chatlist__text">
-                        <img src="public\images\talk.png" className="talk-container__chatlist__img"/>
+                        <img src="public\images\talk.png" className="talk-container__chatlist__img" />
                         <span className="roomTitle-data__fifth"> Room title </span>
                         <span className="roomMember-data__fifth"> 100 </span>
                         <span className="lastChat-time__data__fifth"> yesterday </span>
